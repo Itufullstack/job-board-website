@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobHub - Find Your Dream Job</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-briefcase"></i>
+                    <span>JobHub</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#jobs" class="nav-link">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Find Your Perfect Job</h1>
+                <p>Discover thousands of job opportunities from top companies worldwide</p>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search jobs, companies, skills...">
+                    <select id="locationFilter">
+                        <option value="">All Locations</option>
+                        <option value="remote">Remote</option>
+                        <option value="onsite">On-site</option>
+                        <option value="hybrid">Hybrid</option>
+                    </select>
+                    <button id="searchBtn" class="search-btn">
+                        <i class="fas fa-search"></i>
+                        Search Jobs
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="jobs" class="jobs-section">
+            <div class="container">
+                <h2>Latest Job Opportunities</h2>
+                
+                
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="jobType">Job Type:</label>
+                        <select id="jobType">
+                            <option value="">All Types</option>
+                            <option value="full-time">Full Time</option>
+                            <option value="part-time">Part Time</option>
+                            <option value="contract">Contract</option>
+                            <option value="internship">Internship</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="salaryRange">Salary Range:</label>
+                        <select id="salaryRange">
+                            <option value="">Any Salary</option>
+                            <option value="0-50000">$0 - $50,000</option>
+                            <option value="50000-80000">$50,000 - $80,000</option>
+                            <option value="80000-120000">$80,000 - $120,000</option>
+                            <option value="120000+">$120,000+</option>
+                        </select>
+                    </div>
+                </div>
+
+                
+                <div id="jobsContainer" class="jobs-grid">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <div id="jobModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="jobDetails">
+                
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 JobHub. Built with passion for connecting talent with opportunity.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
