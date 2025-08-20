@@ -7,9 +7,12 @@ A fully responsive, feature-rich job board application built with vanilla HTML, 
 
 ## 📱 Screenshots
 
-![JobHub Application](screenshots/job-hub-screenshots)
+![JobHub Application - Homepage](screenshots/Screenshot%20(1).png)
+![JobHub Application - Search](screenshots/Screenshot%20(11).png)
+![JobHub Application - Mobile](screenshots/Screenshot%20(12).png)  
+![JobHub Application - Details](screenshots/Screenshot%20(13).png)
 
-*Modern job board platform with responsive design and advanced filtering capabilities*
+*Modern job board platform showcasing responsive design and user experience*
 
 ## ✨ Key Features
 
