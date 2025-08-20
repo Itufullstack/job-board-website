@@ -6,7 +6,7 @@ A fully responsive, feature-rich job board application built with vanilla HTML, 
 **🔗 [View Live Application](https://itufullstack.github.io/job-board-website)**
 
 ## 📱 Screenshots
-*Add your screenshots here once you take them*
+
 
 ## ✨ Key Features
 
@@ -166,7 +166,11 @@ Built by **itufullstack** - A passionate developer focused on creating modern, u
 **Connect with me:**
 - GitHub: [@itufullstack](https://github.com/itufullstack)
 - Portfolio: [itufullstack.github.io](https://itufullstack.github.io)
+- 💼 [LinkedIn](https://www.linkedin.com/in/itumeleng-maharala-a944bb37b)
+- 📧 [Email](mailto:itumelengmaharala532@gmail.com)
 
+## 🎓 Background
+FNB IT Varsity Graduate with hands-on experience in modern web development.
 ---
 
 ## 🏆 Acknowledgments
